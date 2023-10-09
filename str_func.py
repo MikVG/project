@@ -1,8 +1,9 @@
-def upper_word(word):
-    """Функция принимает текст и возвращаего его в заглавном виде"""
-    return word.upper()
+# ХотФикс релиза 1.0, исправление функции upper_word и upper_first_letter
+def upper_letter(text):
+    """Функция принимает текст и возвращаего его в верхнем регистре"""
+    return text.upper()
 
 
-def upper_first_latter(word):
+def upper_first_letter(text):
     """Функция принимает на вход текст и возвращает первые буквы каждого слова в верхнем регистре"""
-    return word.title()
+    return text.title()
